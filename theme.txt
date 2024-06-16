@@ -1,0 +1,131 @@
+# Global
+
+title-text: ""
+desktop-image: "background.png"
+
+# Terminal for Console and Options
+terminal-border: "20"
+terminal-left: "10%"
+terminal-top: "10%+23"
+terminal-width: "80%"
+terminal-height: "80%"
+terminal-box: "term_*.png"
+terminal-font: "Monocraft Regular 22"
+
+# SHADOW
++ boot_menu {
+	left = 2%-1
+	top = 60%-1
+	width = 600
+	height = 500
+
+	item_font = "PixelHallfeticaJP10P Regular 30"
+	item_color = white
+	selected_item_color = white
+	item_height = 30
+	item_icon_space = -20
+	item_spacing = 45
+	scrollbar = false
+}
+
++ boot_menu {
+	left = 2%
+	top = 60%
+	width = 600
+	height = 500
+
+	item_font = "PixelHallfeticaJP10P Regular 30"
+	item_color = black
+	selected_item_color = black
+	item_height = 30
+	item_padding = 0
+	item_icon_space = -20
+	item_spacing = 45
+	item_pixmap_style = "item_*.png"
+	selected_item_pixmap_style = "selected_item_*.png"
+	scrollbar = false
+}
+
+# # TEXT 
+# + label {	
+# 	left = 50%+3
+# 	top = 100%-61
+# 	height = 54
+# 	width = 50%-6
+#
+# 	text = "Minegrub 2.0.0"
+# 	align = right
+# 	font = "PixelHallfeticaJP10P Regular 30"
+# 	color = white
+# }
+#
+# # SHADOW 
+# + label {
+# 	left = 50%+3
+# 	top = 100%-58
+# 	height = 54
+# 	width = 50%-6
+#
+# 	text = "Minegrub 2.0.0"
+# 	align = right
+# 	font = "PixelHallfeticaJP10P Regular 30"
+# 	color = "#3f3f3f"
+# }
+#
+# # TEXT
+# + label {	
+# 	left = 50%+3
+# 	top = 100%-31
+# 	height = 54
+# 	width = 50%-6
+#
+# 	text = "647 Packages Installed"
+# 	align = right
+# 	font = "PixelHallfeticaJP10P Regular 30"
+# 	color = white
+# }
+#
+# # SHADOW
+# + label {
+# 	left = 50%+3
+# 	top = 100%-28
+# 	height = 54
+# 	width = 50%-6
+#
+# 	text = "647 Packages Installed"
+# 	align = "right"
+# 	font = "PixelHallfeticaJP10P Regular 30"
+# 	color = "#3f3f3f"
+# }
+
+# TEXT 
++ label {
+	id = "__timeout__"
+	
+	left = 50%
+	top = 100%-50
+	height = 24
+	width = 50%-6	
+	
+	text = "Executing selected entry in %d seconds"
+	align = "right"
+	font = "PixelHallfeticaJP10P Regular 30"
+	color = "white"
+}
+
+# SHADOW 
++ label {
+	id = "__timeout__"
+
+	left = 50%+3
+	top = 100%-47
+	height = 24
+	width = 50%-6
+
+	text = "Executing selected entry in %d seconds"
+	align = "right"
+	font = "PixelHallfeticaJP10P Regular 30"
+	color = "#3f3f3f"
+}
+
+
