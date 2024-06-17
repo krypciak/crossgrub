@@ -13,6 +13,6 @@ cd /boot/grub/themes/
 rm -rf crossgrub
 mkdir -p crossgrub
 cd crossgrub
-cp "$D"/*.png "$D"/theme.txt "$D"/*.pf2 .
+cp "$D"/assets/*.png "$D"/theme.txt "$D"/*.pf2 .
 
 echo Installed to /boot/grub/themes
