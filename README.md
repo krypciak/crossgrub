@@ -66,4 +66,6 @@ grub2-theme-preview /boot/grub/themes/crossgrub --resolution 1920x1080
 
 ![Screenshot of the theme's terminal (1440p)](https://github.com/user-attachments/assets/e56fca7c-75b0-492e-b754-ded4487cc34f)
 
+## Links
 
+- https://www.pling.com/p/2179631/
