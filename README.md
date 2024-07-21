@@ -5,6 +5,29 @@
 
 ## Installation
 
+### From the release archive
+
+- Download `crossgrub.tar.gz` archive from the latest release
+
+- Extract the archive into the `/boot/grub/themes` directory by running:
+```bash
+tar xf crossgrub.tar.gz --directory=/boot/grub/themes
+```
+
+- Change/add this line in your `/etc/default/grub`:
+```
+GRUB_THEME=/boot/grub/themes/crossgrub/theme.txt
+```
+
+- Update your live grub config by running:
+```
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+- Done!
+
+### From source
+
 - Clone the repository
 ```bash
 git clone https://github.com/krypciak/crossgrub
@@ -20,7 +43,7 @@ sudo bash ./install.sh
 GRUB_THEME=/boot/grub/themes/crossgrub/theme.txt
 ```
 
-- Update your live grub config by running
+- Update your live grub config by running:
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
