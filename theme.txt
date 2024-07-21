@@ -46,58 +46,6 @@ terminal-font: "Monocraft Regular 22"
 	scrollbar = false
 }
 
-# # TEXT 
-# + label {	
-# 	left = 50%+3
-# 	top = 100%-61
-# 	height = 54
-# 	width = 50%-6
-#
-# 	text = "Minegrub 2.0.0"
-# 	align = right
-# 	font = "PixelHallfeticaJP10P Regular 30"
-# 	color = white
-# }
-#
-# # SHADOW 
-# + label {
-# 	left = 50%+3
-# 	top = 100%-58
-# 	height = 54
-# 	width = 50%-6
-#
-# 	text = "Minegrub 2.0.0"
-# 	align = right
-# 	font = "PixelHallfeticaJP10P Regular 30"
-# 	color = "#3f3f3f"
-# }
-#
-# # TEXT
-# + label {	
-# 	left = 50%+3
-# 	top = 100%-31
-# 	height = 54
-# 	width = 50%-6
-#
-# 	text = "647 Packages Installed"
-# 	align = right
-# 	font = "PixelHallfeticaJP10P Regular 30"
-# 	color = white
-# }
-#
-# # SHADOW
-# + label {
-# 	left = 50%+3
-# 	top = 100%-28
-# 	height = 54
-# 	width = 50%-6
-#
-# 	text = "647 Packages Installed"
-# 	align = "right"
-# 	font = "PixelHallfeticaJP10P Regular 30"
-# 	color = "#3f3f3f"
-# }
-
 # TEXT 
 + label {
 	id = "__timeout__"
