@@ -3,6 +3,8 @@
 
 ![Screenshot of the theme (1080p)](https://github.com/user-attachments/assets/694a1b87-44b6-439b-8447-330c3477534f)
 
+If you like this theme, you might also like my [CrossCode-inspired plymouth theme](https://github.com/krypciak/crosscode-plymouth).
+
 ## Installation
 
 ### From the release archive
